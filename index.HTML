@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulir penerimaan kerja</title>
+    <h1>formulir pekerjaan anda</h1>
+</head>
+<body>
+    <form onsubmit="alert('formulir anda sedang di proses');">
+        <fieldset>
+            <legend>formulir pekerjaan</legend>
+
+
+            <p>nama : <input type="text" name="nama"></p>
+            <p>alamat : <input type="text" name="alamat"></p>
+            <p>password : <input type="password" name="pass"></p>
+
+            <p>
+                jenis kelamin :
+                <input type="radio" name="jenis_kelamin"  value="laki-laki" /> laki-laki
+                <input type="radio" name="jenis_kelamin" value="perempuan" /> perempuan
+
+            </p>
+
+            <p>
+                Bahasa pemrograman yang dikuasai :
+                <input type="checkbox" name="web">web
+                <input type="checkbox" name="mobile">mobile
+                <input type="checkbox" name="desk">desktop
+            </p>
+
+                <p>
+                    kota asal :
+                    <select>
+                        <option>Garut</option>
+                        <option>Bandung</option>
+                        <option>Jakarta</option>
+                        <option>Semarang</option>
+                        <option>Bogor</option>
+                    </select>
+                </p>
+
+
+                    <p>
+                        Apa Kemampuan Yang Anda Kuasai Untuk Membuktikan Anda berbakat? :
+                        <textarea rows="10" cols="60" placeholder="tulis jawaban anda di sini"></textarea>
+                    </p>
+
+            <p><input type="submit" value="proses"></p>
+            
+        </fieldset>
+    </form>
+    
+</body>
+</html>
